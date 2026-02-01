@@ -10,6 +10,4 @@ public class IdentityUserCreateDto : IdentityUserCreateOrUpdateDtoBase
     [Required]
     [DynamicStringLength(typeof(IdentityUserConsts), nameof(IdentityUserConsts.MaxPasswordLength))]
     public string Password { get; set; }
-
-
 }

@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Security.Claims;
 using JetBrains.Annotations;
@@ -155,8 +153,6 @@ public class IdentityUser : FullAuditedAggregateRoot<Guid>, IUser, IHasEntityVer
     /// Navigation property for this organization units.
     /// </summary>
     public virtual ICollection<IdentityUserOrganizationUnit> OrganizationUnits { get; protected set; }
-
-    public string MaSoThue { get; set; }
 
     protected IdentityUser()
     {

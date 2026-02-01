@@ -12,7 +12,7 @@ using Volo.Abp.EntityFrameworkCore;
 namespace SeemsAdmin.Migrations
 {
     [DbContext(typeof(SeemsAdminDbContext))]
-    [Migration("20260131143934_Initial")]
+    [Migration("20260201081255_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

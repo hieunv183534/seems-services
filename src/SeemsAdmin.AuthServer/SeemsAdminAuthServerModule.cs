@@ -77,7 +77,7 @@ public class SeemsAdminAuthServerModule : AbpModule
 
             PreConfigure<OpenIddictServerBuilder>(serverBuilder =>
             {
-                serverBuilder.AddProductionEncryptionAndSigningCertificate("openiddict.pfx", "5dde0d83-e45f-4166-a357-fd23e64ee523");
+                serverBuilder.AddProductionEncryptionAndSigningCertificate("openiddict.pfx", "ff66f3af-7f8b-4f9e-80e5-24407afd47b9");
             });
         }
     }

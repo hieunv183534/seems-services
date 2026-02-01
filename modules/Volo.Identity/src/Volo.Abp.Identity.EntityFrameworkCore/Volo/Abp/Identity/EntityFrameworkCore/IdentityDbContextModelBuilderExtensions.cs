@@ -41,8 +41,6 @@ public static class IdentityDbContextModelBuilderExtensions
                 .If(!builder.IsUsingOracle(), p => p.HasDefaultValue(0))
                 .HasColumnName(nameof(IdentityUser.AccessFailedCount));
 
-            b.Property(u => u.MaSoThue).HasMaxLength(100);
-
             b.HasMany(u => u.Claims).WithOne().HasForeignKey(uc => uc.UserId).IsRequired();
             b.HasMany(u => u.Logins).WithOne().HasForeignKey(ul => ul.UserId).IsRequired();
             b.HasMany(u => u.Roles).WithOne().HasForeignKey(ur => ur.UserId).IsRequired();

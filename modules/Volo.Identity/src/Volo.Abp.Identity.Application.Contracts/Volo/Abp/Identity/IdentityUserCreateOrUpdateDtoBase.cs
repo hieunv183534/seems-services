@@ -33,9 +33,6 @@ public abstract class IdentityUserCreateOrUpdateDtoBase : ExtensibleObject
     [CanBeNull]
     public string[] RoleNames { get; set; }
 
-    [MaxLength(100)]
-    public string MaSoThue { get; set; }
-
     protected IdentityUserCreateOrUpdateDtoBase() : base(false)
     {
 

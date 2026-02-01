@@ -785,10 +785,6 @@ namespace SeemsAdmin.Migrations
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("MaSoThue")
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
                     b.Property<string>("Name")
                         .HasMaxLength(64)
                         .HasColumnType("varchar(64)")
