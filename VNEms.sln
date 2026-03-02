@@ -129,7 +129,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNEmsAdmin.HttpApi.Client",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNEmsAdmin.HttpApi.Host", "services\admin-service\src\VNEmsAdmin.HttpApi.Host\VNEmsAdmin.HttpApi.Host.csproj", "{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNEmsAdmin.AuthServer", "services\admin-service\src\VNEmsAdmin.AuthServer\VNEmsAdmin.AuthServer.csproj", "{96CC83C6-8506-E9DC-4DED-F9508EEBA23F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNEms.AuthServer", "apps\VNEms.AuthServer\VNEms.AuthServer.csproj", "{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -337,10 +337,10 @@ Global
 		{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96CC83C6-8506-E9DC-4DED-F9508EEBA23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96CC83C6-8506-E9DC-4DED-F9508EEBA23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96CC83C6-8506-E9DC-4DED-F9508EEBA23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96CC83C6-8506-E9DC-4DED-F9508EEBA23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -405,7 +405,7 @@ Global
 		{6CA26D6C-1117-0B32-B20E-9605513F74BB} = {91C06C48-750B-4464-9C96-0B92779BB4AD}
 		{D5D972AB-DB92-BD27-B049-8B5D3E8EAB24} = {91C06C48-750B-4464-9C96-0B92779BB4AD}
 		{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2} = {0A77387C-30A8-4E37-A230-2CC8790A8FA0}
-		{96CC83C6-8506-E9DC-4DED-F9508EEBA23F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B7AA8F2-F0F8-4AAA-AB4D-BC847942237D}

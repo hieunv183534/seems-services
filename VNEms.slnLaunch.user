@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "services\\admin-service\\src\\VNEmsAdmin.AuthServer\\VNEmsAdmin.AuthServer.csproj",
+        "Path": "apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj",
         "Action": "Start"
       }
     ]
