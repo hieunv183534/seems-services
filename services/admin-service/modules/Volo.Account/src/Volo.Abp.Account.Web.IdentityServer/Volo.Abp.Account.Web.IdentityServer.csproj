@@ -29,7 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Volo.IdentityServer\src\Volo.Abp.IdentityServer.Domain\Volo.Abp.IdentityServer.Domain.csproj" />
     <ProjectReference Include="..\Volo.Abp.Account.Web\Volo.Abp.Account.Web.csproj" />
   </ItemGroup>
 

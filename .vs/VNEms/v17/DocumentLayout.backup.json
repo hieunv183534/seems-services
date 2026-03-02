@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "D:\\VNEMS\\BE\\seems-services\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.authserver\\vnemsauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|solutionrelative:apps\\vnems.authserver\\vnemsauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\wwwroot\\client-proxies\\account-proxy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\wwwroot\\client-proxies\\account-proxy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.authserver\\vnems.authserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|solutionrelative:apps\\vnems.authserver\\vnems.authserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\modules\\account\\components\\toolbar\\userloginlink\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\modules\\account\\components\\toolbar\\userloginlink\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\src\\vnemsadmin.httpapi.host\\vnemsadminhttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|solutionrelative:services\\admin-service\\src\\vnemsadmin.httpapi.host\\vnemsadminhttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.authserver\\vnemsbrandingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|solutionrelative:apps\\vnems.authserver\\vnemsbrandingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\loggedout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{650D0390-6419-8875-1D6D-ED4CB6DDDBB6}|services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj|solutionrelative:services\\admin-service\\modules\\volo.account\\src\\volo.abp.account.web\\pages\\account\\loggedout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +46,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VNEmsAdminHttpApiHostModule.cs",
-              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdminHttpApiHostModule.cs",
-              "RelativeDocumentMoniker": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdminHttpApiHostModule.cs",
-              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdminHttpApiHostModule.cs",
-              "RelativeToolTip": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdminHttpApiHostModule.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAANgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T14:29:39.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VNEmsBrandingProvider.cs",
-              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\VNEmsBrandingProvider.cs",
-              "RelativeDocumentMoniker": "apps\\VNEms.AuthServer\\VNEmsBrandingProvider.cs",
-              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\VNEmsBrandingProvider.cs",
-              "RelativeToolTip": "apps\\VNEms.AuthServer\\VNEmsBrandingProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T14:26:14.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VNEmsAuthServerModule.cs",
-              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\VNEmsAuthServerModule.cs",
-              "RelativeDocumentMoniker": "apps\\VNEms.AuthServer\\VNEmsAuthServerModule.cs",
-              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\VNEmsAuthServerModule.cs",
-              "RelativeToolTip": "apps\\VNEms.AuthServer\\VNEmsAuthServerModule.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAnwHkAAAAzAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T14:25:59.607Z",
+              "Title": "account-proxy.js",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\wwwroot\\client-proxies\\account-proxy.js",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\wwwroot\\client-proxies\\account-proxy.js",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\wwwroot\\client-proxies\\account-proxy.js",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\wwwroot\\client-proxies\\account-proxy.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-02T15:07:58.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VNEms.AuthServer",
-              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj",
-              "RelativeDocumentMoniker": "apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj",
-              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj",
-              "RelativeToolTip": "apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-02T14:25:29.46Z",
-              "EditorCaption": ""
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Modules\\Account\\Components\\Toolbar\\UserLoginLink\\Default.cshtml",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Modules\\Account\\Components\\Toolbar\\UserLoginLink\\Default.cshtml",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Modules\\Account\\Components\\Toolbar\\UserLoginLink\\Default.cshtml",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Modules\\Account\\Components\\Toolbar\\UserLoginLink\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T15:07:45.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T15:06:06.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_ViewStart.cshtml",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_ViewStart.cshtml",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T15:06:02.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T15:06:00.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T15:05:58.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_Layout.cshtml",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_Layout.cshtml",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T15:05:57.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoggedOut.cshtml",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\LoggedOut.cshtml",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\LoggedOut.cshtml",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\LoggedOut.cshtml",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\LoggedOut.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T15:05:35.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manage.cshtml",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\Manage.cshtml",
+              "RelativeDocumentMoniker": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\Manage.cshtml",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\Manage.cshtml",
+              "RelativeToolTip": "services\\admin-service\\modules\\Volo.Account\\src\\Volo.Abp.Account.Web\\Pages\\Account\\Manage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T15:02:23.682Z"
             }
           ]
         }
