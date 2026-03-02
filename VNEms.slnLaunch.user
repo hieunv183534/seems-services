@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "services\\admin-service\\src\\VNEmsAdmin.AuthServer\\VNEmsAdmin.AuthServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
