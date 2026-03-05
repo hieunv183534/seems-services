@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\VNEms.ServiceDefaults\VNEms.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\..\shared\VNEms.ServiceDefaults\VNEms.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>
