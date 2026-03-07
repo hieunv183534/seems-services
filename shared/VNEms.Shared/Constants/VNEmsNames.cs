@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VNEms.AppHost
+namespace VNEms.Shared.Constants
 {
-    public static class VNEmsNames
+    public class VNEmsNames
     {
         public const string VNEms = "VNEms";
 
@@ -22,5 +22,6 @@ namespace VNEms.AppHost
         public const string VNEmsResourceDb = "VNEmsResourceDb";
 
         public const string Gateway = "VNEmsGateway";
+        public const string AuthServer = "VNEmsAuthServer";
     }
 }

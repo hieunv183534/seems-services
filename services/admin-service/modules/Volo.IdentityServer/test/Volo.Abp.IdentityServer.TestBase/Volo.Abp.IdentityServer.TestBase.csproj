@@ -15,7 +15,6 @@
     <PackageReference Include="Volo.Abp.Autofac" VersionOverride="8.3.4" />
     <PackageReference Include="Volo.Abp.Authorization" VersionOverride="8.3.4" />
     <PackageReference Include="Volo.Abp.TestBase" VersionOverride="8.3.4" />
-    <ProjectReference Include="..\..\src\Volo.Abp.IdentityServer.Domain\Volo.Abp.IdentityServer.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VNEmsAdmin.Domain", "src\VNEmsAdmin.Domain\VNEmsAdmin.Domain.csproj", "{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}"
 EndProject
@@ -61,35 +61,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.PermissionManagement.T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.PermissionManagement", "Volo.PermissionManagement", "{11275CBE-E22A-452D-9512-1D945179B499}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.TestBase", "modules\Volo.IdentityServer\test\Volo.Abp.IdentityServer.TestBase\Volo.Abp.IdentityServer.TestBase.csproj", "{76AE7A3A-B351-4EDD-8762-4184CDE1657D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.MongoDB.Tests", "modules\Volo.IdentityServer\test\Volo.Abp.IdentityServer.MongoDB.Tests\Volo.Abp.IdentityServer.MongoDB.Tests.csproj", "{74B2FB79-6383-4CE6-B929-03CA04A49E8A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.EntityFrameworkCore.Tests", "modules\Volo.IdentityServer\test\Volo.Abp.IdentityServer.EntityFrameworkCore.Tests\Volo.Abp.IdentityServer.EntityFrameworkCore.Tests.csproj", "{E4625EAA-3115-464B-9986-C5CB400C5B20}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.Domain.Tests", "modules\Volo.IdentityServer\test\Volo.Abp.IdentityServer.Domain.Tests\Volo.Abp.IdentityServer.Domain.Tests.csproj", "{0CB16FEB-DFD3-4E81-AB1A-1A3FD0AAACB2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.PermissionManagement.Domain.IdentityServer", "modules\Volo.IdentityServer\src\Volo.Abp.PermissionManagement.Domain.IdentityServer\Volo.Abp.PermissionManagement.Domain.IdentityServer.csproj", "{B8FD7369-1E5A-4A1A-A461-CB9F92A87E30}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.MongoDB", "modules\Volo.IdentityServer\src\Volo.Abp.IdentityServer.MongoDB\Volo.Abp.IdentityServer.MongoDB.csproj", "{39712070-F654-4021-BC87-0CFD6C3F62F9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.Installer", "modules\Volo.IdentityServer\src\Volo.Abp.IdentityServer.Installer\Volo.Abp.IdentityServer.Installer.csproj", "{254EB847-CEEC-4160-AB35-12ECAA084347}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.EntityFrameworkCore", "modules\Volo.IdentityServer\src\Volo.Abp.IdentityServer.EntityFrameworkCore\Volo.Abp.IdentityServer.EntityFrameworkCore.csproj", "{083102EA-F2AD-421E-855D-040167219B61}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.Domain.Shared", "modules\Volo.IdentityServer\src\Volo.Abp.IdentityServer.Domain.Shared\Volo.Abp.IdentityServer.Domain.Shared.csproj", "{BAC32560-E229-4199-B0D8-392CBA82EF87}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.IdentityServer.Domain", "modules\Volo.IdentityServer\src\Volo.Abp.IdentityServer.Domain\Volo.Abp.IdentityServer.Domain.csproj", "{D62DB5A7-63AE-415C-BE6C-609437BE4DA2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.IdentityServer.Tests", "Volo.IdentityServer.Tests", "{99285209-392A-4250-927B-EE63BF932012}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.IdentityServer", "Volo.IdentityServer", "{C42AEBCF-330A-4C1D-BEF7-E46B1DB4665F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.Account.Application.Tests", "modules\Volo.Account\test\Volo.Abp.Account.Application.Tests\Volo.Abp.Account.Application.Tests.csproj", "{55011923-72EB-4CAF-BA3B-C44252575B6D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.Account.Web.OpenIddict", "modules\Volo.Account\src\Volo.Abp.Account.Web.OpenIddict\Volo.Abp.Account.Web.OpenIddict.csproj", "{C4D583DE-CE64-4A07-BCEC-AC5CFB6D59AE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.Account.Web.IdentityServer", "modules\Volo.Account\src\Volo.Abp.Account.Web.IdentityServer\Volo.Abp.Account.Web.IdentityServer.csproj", "{101537B4-21F2-4AD0-9D08-D55BC063EB5E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.Account.Web", "modules\Volo.Account\src\Volo.Abp.Account.Web\Volo.Abp.Account.Web.csproj", "{ED17D2B9-C681-414A-9FD8-13ECDF611B11}"
 EndProject
@@ -307,46 +281,6 @@ Global
 		{104A0B97-F5B6-471A-8016-80F3963808CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{104A0B97-F5B6-471A-8016-80F3963808CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{104A0B97-F5B6-471A-8016-80F3963808CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76AE7A3A-B351-4EDD-8762-4184CDE1657D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76AE7A3A-B351-4EDD-8762-4184CDE1657D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76AE7A3A-B351-4EDD-8762-4184CDE1657D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76AE7A3A-B351-4EDD-8762-4184CDE1657D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74B2FB79-6383-4CE6-B929-03CA04A49E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74B2FB79-6383-4CE6-B929-03CA04A49E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74B2FB79-6383-4CE6-B929-03CA04A49E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74B2FB79-6383-4CE6-B929-03CA04A49E8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E4625EAA-3115-464B-9986-C5CB400C5B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4625EAA-3115-464B-9986-C5CB400C5B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4625EAA-3115-464B-9986-C5CB400C5B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4625EAA-3115-464B-9986-C5CB400C5B20}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0CB16FEB-DFD3-4E81-AB1A-1A3FD0AAACB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CB16FEB-DFD3-4E81-AB1A-1A3FD0AAACB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CB16FEB-DFD3-4E81-AB1A-1A3FD0AAACB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CB16FEB-DFD3-4E81-AB1A-1A3FD0AAACB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8FD7369-1E5A-4A1A-A461-CB9F92A87E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8FD7369-1E5A-4A1A-A461-CB9F92A87E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8FD7369-1E5A-4A1A-A461-CB9F92A87E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8FD7369-1E5A-4A1A-A461-CB9F92A87E30}.Release|Any CPU.Build.0 = Release|Any CPU
-		{39712070-F654-4021-BC87-0CFD6C3F62F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39712070-F654-4021-BC87-0CFD6C3F62F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39712070-F654-4021-BC87-0CFD6C3F62F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39712070-F654-4021-BC87-0CFD6C3F62F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{254EB847-CEEC-4160-AB35-12ECAA084347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{254EB847-CEEC-4160-AB35-12ECAA084347}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{254EB847-CEEC-4160-AB35-12ECAA084347}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{254EB847-CEEC-4160-AB35-12ECAA084347}.Release|Any CPU.Build.0 = Release|Any CPU
-		{083102EA-F2AD-421E-855D-040167219B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{083102EA-F2AD-421E-855D-040167219B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{083102EA-F2AD-421E-855D-040167219B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{083102EA-F2AD-421E-855D-040167219B61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BAC32560-E229-4199-B0D8-392CBA82EF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAC32560-E229-4199-B0D8-392CBA82EF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAC32560-E229-4199-B0D8-392CBA82EF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAC32560-E229-4199-B0D8-392CBA82EF87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D62DB5A7-63AE-415C-BE6C-609437BE4DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D62DB5A7-63AE-415C-BE6C-609437BE4DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D62DB5A7-63AE-415C-BE6C-609437BE4DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D62DB5A7-63AE-415C-BE6C-609437BE4DA2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{55011923-72EB-4CAF-BA3B-C44252575B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{55011923-72EB-4CAF-BA3B-C44252575B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55011923-72EB-4CAF-BA3B-C44252575B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -355,10 +289,6 @@ Global
 		{C4D583DE-CE64-4A07-BCEC-AC5CFB6D59AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D583DE-CE64-4A07-BCEC-AC5CFB6D59AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D583DE-CE64-4A07-BCEC-AC5CFB6D59AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{101537B4-21F2-4AD0-9D08-D55BC063EB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{101537B4-21F2-4AD0-9D08-D55BC063EB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{101537B4-21F2-4AD0-9D08-D55BC063EB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{101537B4-21F2-4AD0-9D08-D55BC063EB5E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED17D2B9-C681-414A-9FD8-13ECDF611B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED17D2B9-C681-414A-9FD8-13ECDF611B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED17D2B9-C681-414A-9FD8-13ECDF611B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -577,21 +507,8 @@ Global
 		{104A0B97-F5B6-471A-8016-80F3963808CD} = {11275CBE-E22A-452D-9512-1D945179B499}
 		{6F2AFCD0-465C-4886-B6E8-7658948C064E} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
 		{11275CBE-E22A-452D-9512-1D945179B499} = {179D8F04-6740-463B-86C2-0BDD0D28D34D}
-		{76AE7A3A-B351-4EDD-8762-4184CDE1657D} = {99285209-392A-4250-927B-EE63BF932012}
-		{74B2FB79-6383-4CE6-B929-03CA04A49E8A} = {99285209-392A-4250-927B-EE63BF932012}
-		{E4625EAA-3115-464B-9986-C5CB400C5B20} = {99285209-392A-4250-927B-EE63BF932012}
-		{0CB16FEB-DFD3-4E81-AB1A-1A3FD0AAACB2} = {99285209-392A-4250-927B-EE63BF932012}
-		{B8FD7369-1E5A-4A1A-A461-CB9F92A87E30} = {C42AEBCF-330A-4C1D-BEF7-E46B1DB4665F}
-		{39712070-F654-4021-BC87-0CFD6C3F62F9} = {C42AEBCF-330A-4C1D-BEF7-E46B1DB4665F}
-		{254EB847-CEEC-4160-AB35-12ECAA084347} = {C42AEBCF-330A-4C1D-BEF7-E46B1DB4665F}
-		{083102EA-F2AD-421E-855D-040167219B61} = {C42AEBCF-330A-4C1D-BEF7-E46B1DB4665F}
-		{BAC32560-E229-4199-B0D8-392CBA82EF87} = {C42AEBCF-330A-4C1D-BEF7-E46B1DB4665F}
-		{D62DB5A7-63AE-415C-BE6C-609437BE4DA2} = {C42AEBCF-330A-4C1D-BEF7-E46B1DB4665F}
-		{99285209-392A-4250-927B-EE63BF932012} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
-		{C42AEBCF-330A-4C1D-BEF7-E46B1DB4665F} = {179D8F04-6740-463B-86C2-0BDD0D28D34D}
 		{55011923-72EB-4CAF-BA3B-C44252575B6D} = {90A36D67-8848-46FA-839D-7AABB4F39BF5}
 		{C4D583DE-CE64-4A07-BCEC-AC5CFB6D59AE} = {E3516A99-046C-480C-844C-BDE461E4AD4B}
-		{101537B4-21F2-4AD0-9D08-D55BC063EB5E} = {E3516A99-046C-480C-844C-BDE461E4AD4B}
 		{ED17D2B9-C681-414A-9FD8-13ECDF611B11} = {E3516A99-046C-480C-844C-BDE461E4AD4B}
 		{E94C0CCE-48AC-4FDF-8056-C0428CC4ADB2} = {E3516A99-046C-480C-844C-BDE461E4AD4B}
 		{534D37FF-ADC2-4037-911F-2323E670FA0F} = {E3516A99-046C-480C-844C-BDE461E4AD4B}

@@ -13,8 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Volo.Identity\src\Volo.Abp.Identity.MongoDB\Volo.Abp.Identity.MongoDB.csproj" />
-
-    <ProjectReference Include="..\..\src\Volo.Abp.IdentityServer.MongoDB\Volo.Abp.IdentityServer.MongoDB.csproj" />
     <ProjectReference Include="..\Volo.Abp.IdentityServer.TestBase\Volo.Abp.IdentityServer.TestBase.csproj" />
   </ItemGroup>
 
