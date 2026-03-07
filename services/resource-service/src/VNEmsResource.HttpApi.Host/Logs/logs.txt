@@ -500,3 +500,138 @@
 2026-03-07 16:58:59.874 +07:00 [INF] Executed action VNEmsResource.Samples.SampleController.GetAsync (VNEmsResource.HttpApi) in 64.565ms
 2026-03-07 16:58:59.874 +07:00 [INF] Executed endpoint 'VNEmsResource.Samples.SampleController.GetAsync (VNEmsResource.HttpApi)'
 2026-03-07 16:58:59.874 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/api/VNEmsResource/sample - 200 null application/json; charset=utf-8 71.75ms
+2026-03-07 17:08:53.545 +07:00 [INF] Starting web host.
+2026-03-07 17:08:57.329 +07:00 [INF] Loaded ABP modules:
+2026-03-07 17:08:57.330 +07:00 [INF] - VNEmsResource.VNEmsResourceHttpApiHostModule
+2026-03-07 17:08:57.330 +07:00 [INF]   - VNEmsResource.VNEmsResourceHttpApiModule
+2026-03-07 17:08:57.330 +07:00 [INF]     - VNEmsResource.VNEmsResourceApplicationContractsModule
+2026-03-07 17:08:57.330 +07:00 [INF]       - VNEmsResource.VNEmsResourceDomainSharedModule
+2026-03-07 17:08:57.330 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2026-03-07 17:08:57.330 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2026-03-07 17:08:57.330 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2026-03-07 17:08:57.330 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2026-03-07 17:08:57.330 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2026-03-07 17:08:57.330 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2026-03-07 17:08:57.330 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2026-03-07 17:08:57.330 +07:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2026-03-07 17:08:57.330 +07:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2026-03-07 17:08:57.330 +07:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2026-03-07 17:08:57.330 +07:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2026-03-07 17:08:57.330 +07:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2026-03-07 17:08:57.330 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2026-03-07 17:08:57.330 +07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2026-03-07 17:08:57.330 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2026-03-07 17:08:57.331 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2026-03-07 17:08:57.331 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2026-03-07 17:08:57.331 +07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2026-03-07 17:08:57.331 +07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2026-03-07 17:08:57.331 +07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2026-03-07 17:08:57.331 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2026-03-07 17:08:57.331 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2026-03-07 17:08:57.331 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2026-03-07 17:08:57.331 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2026-03-07 17:08:57.331 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2026-03-07 17:08:57.331 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2026-03-07 17:08:57.331 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2026-03-07 17:08:57.331 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2026-03-07 17:08:57.331 +07:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2026-03-07 17:08:57.331 +07:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2026-03-07 17:08:57.331 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2026-03-07 17:08:57.331 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2026-03-07 17:08:57.331 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2026-03-07 17:08:57.331 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2026-03-07 17:08:57.331 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - VNEmsResource.VNEmsResourceApplicationModule
+2026-03-07 17:08:57.331 +07:00 [INF]     - VNEmsResource.VNEmsResourceDomainModule
+2026-03-07 17:08:57.331 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - VNEmsResource.EntityFrameworkCore.VNEmsResourceEntityFrameworkCoreModule
+2026-03-07 17:08:57.331 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2026-03-07 17:08:57.331 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2026-03-07 17:08:57.902 +07:00 [INF] User profile is available. Using 'C:\Users\hieunv183534\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-07 17:08:58.000 +07:00 [INF] Initialized all ABP modules.
+2026-03-07 17:08:58.202 +07:00 [INF] Now listening on: https://localhost:61980
+2026-03-07 17:08:58.265 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-07 17:08:58.265 +07:00 [INF] Hosting environment: Development
+2026-03-07 17:08:58.265 +07:00 [INF] Content root path: D:\VNEMS\BE\seems-services\services\resource-service\src\VNEmsResource.HttpApi.Host
+2026-03-07 17:09:18.912 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/ - null null
+2026-03-07 17:09:19.048 +07:00 [WRN] The 'WebRootPath' is not set! The 'CheckLibs' feature is disabled!
+2026-03-07 17:09:19.309 +07:00 [INF] Executing endpoint 'VNEmsResource.Controllers.HomeController.Index (VNEmsResource.HttpApi.Host)'
+2026-03-07 17:09:19.333 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller VNEmsResource.Controllers.HomeController (VNEmsResource.HttpApi.Host).
+2026-03-07 17:09:19.356 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2026-03-07 17:09:19.359 +07:00 [INF] Executed action VNEmsResource.Controllers.HomeController.Index (VNEmsResource.HttpApi.Host) in 22.974ms
+2026-03-07 17:09:19.359 +07:00 [INF] Executed endpoint 'VNEmsResource.Controllers.HomeController.Index (VNEmsResource.HttpApi.Host)'
+2026-03-07 17:09:19.368 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/ - 302 0 null 457.0594ms
+2026-03-07 17:09:19.373 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger - null null
+2026-03-07 17:09:19.380 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger - 301 0 null 7.4351ms
+2026-03-07 17:09:19.389 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger/index.html - null null
+2026-03-07 17:09:19.435 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger/index.html - 200 null text/html;charset=utf-8 47.8547ms
+2026-03-07 17:09:19.467 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-07 17:09:19.474 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 6.7052ms
+2026-03-07 17:09:19.543 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/_vs/browserLink - null null
+2026-03-07 17:09:19.581 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.5712ms
+2026-03-07 17:09:19.906 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - null null
+2026-03-07 17:09:19.941 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.9481ms
+2026-03-07 17:09:33.106 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger/oauth2-redirect.html?code=rjIShKqqQxXEfe2TQ2QrsdwzEGAlz0AdwSy4OF4ibhY&state=U2F0IE1hciAwNyAyMDI2IDE3OjA5OjIyIEdNVCswNzAwIChHaeG7nSDEkMO0bmcgRMawxqFuZyk%3D&iss=https%3A%2F%2Flocalhost%3A44382%2F - null null
+2026-03-07 17:09:33.118 +07:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2026-03-07 17:09:33.118 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger/oauth2-redirect.html?code=rjIShKqqQxXEfe2TQ2QrsdwzEGAlz0AdwSy4OF4ibhY&state=U2F0IE1hciAwNyAyMDI2IDE3OjA5OjIyIEdNVCswNzAwIChHaeG7nSDEkMO0bmcgRMawxqFuZyk%3D&iss=https%3A%2F%2Flocalhost%3A44382%2F - 200 null text/html 12.5228ms
+2026-03-07 17:09:33.154 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/_vs/browserLink - null null
+2026-03-07 17:09:33.161 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-07 17:09:33.163 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 2.1575ms
+2026-03-07 17:09:33.174 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.2217ms
+2026-03-07 17:10:48.448 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/ - null null
+2026-03-07 17:10:48.462 +07:00 [INF] Executing endpoint 'VNEmsResource.Controllers.HomeController.Index (VNEmsResource.HttpApi.Host)'
+2026-03-07 17:10:48.463 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller VNEmsResource.Controllers.HomeController (VNEmsResource.HttpApi.Host).
+2026-03-07 17:10:48.464 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2026-03-07 17:10:48.464 +07:00 [INF] Executed action VNEmsResource.Controllers.HomeController.Index (VNEmsResource.HttpApi.Host) in 1.4795ms
+2026-03-07 17:10:48.464 +07:00 [INF] Executed endpoint 'VNEmsResource.Controllers.HomeController.Index (VNEmsResource.HttpApi.Host)'
+2026-03-07 17:10:48.464 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/ - 302 0 null 16.2165ms
+2026-03-07 17:10:48.468 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger - null null
+2026-03-07 17:10:48.471 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger - 301 0 null 2.5047ms
+2026-03-07 17:10:48.478 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger/index.html - null null
+2026-03-07 17:10:48.493 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger/index.html - 200 null text/html;charset=utf-8 14.7041ms
+2026-03-07 17:10:48.523 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-07 17:10:48.524 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 0.949ms
+2026-03-07 17:10:48.590 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/_vs/browserLink - null null
+2026-03-07 17:10:48.598 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.1228ms
+2026-03-07 17:10:48.694 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - null null
+2026-03-07 17:10:48.722 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.0164ms
+2026-03-07 17:10:56.387 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/abp/Swashbuckle/SetCsrfCookie - null null
+2026-03-07 17:10:56.388 +07:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2026-03-07 17:10:56.390 +07:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle", page = ""}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2026-03-07 17:10:56.396 +07:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 6.1646ms
+2026-03-07 17:10:56.396 +07:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2026-03-07 17:10:56.396 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/abp/Swashbuckle/SetCsrfCookie - 204 null null 10.0142ms
+2026-03-07 17:10:56.436 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44377/api/VNEmsResource/sample - null null
+2026-03-07 17:10:56.437 +07:00 [INF] Executing endpoint 'VNEmsResource.Samples.SampleController.GetAsync (VNEmsResource.HttpApi)'
+2026-03-07 17:10:56.441 +07:00 [INF] Route matched with {area = "vNEmsResource", action = "Get", controller = "Sample", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[VNEmsResource.Samples.SampleDto] GetAsync() on controller VNEmsResource.Samples.SampleController (VNEmsResource.HttpApi).
+2026-03-07 17:10:56.484 +07:00 [INF] Executing ObjectResult, writing value of type 'VNEmsResource.Samples.SampleDto'.
+2026-03-07 17:10:56.486 +07:00 [INF] Executed action VNEmsResource.Samples.SampleController.GetAsync (VNEmsResource.HttpApi) in 44.6354ms
+2026-03-07 17:10:56.486 +07:00 [INF] Executed endpoint 'VNEmsResource.Samples.SampleController.GetAsync (VNEmsResource.HttpApi)'
+2026-03-07 17:10:56.486 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44377/api/VNEmsResource/sample - 200 null application/json; charset=utf-8 50.7203ms

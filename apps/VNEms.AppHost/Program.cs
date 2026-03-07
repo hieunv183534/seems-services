@@ -24,10 +24,20 @@ var adminService = builder.AddProject<Projects.VNEmsAdmin_HttpApi_Host>(VNEmsNam
                     .WaitFor(rabbitMq)
                     .WaitFor(redis);
 
+var resourceService = builder.AddProject<Projects.VNEmsResource_HttpApi_Host>(VNEmsNames.VNEmsResourceApi)
+                    .WithExternalHttpEndpoints()
+                    .WithReference(resourceDb)
+                    .WithReference(rabbitMq)
+                    .WithReference(redis)
+                    .WithReference(seq)
+                    .WaitFor(rabbitMq)
+                    .WaitFor(redis);
+
 var gateway = builder.AddProject<Projects.VNEms_Gateway>(VNEmsNames.Gateway)
                     .WithExternalHttpEndpoints()
                     .WithReference(seq)
-                    .WaitFor(adminService);
+                    .WaitFor(adminService)
+                    .WaitFor(resourceService);
 
 var authserver = builder.AddProject<Projects.VNEms_AuthServer>(VNEmsNames.AuthServer)
                    .WithExternalHttpEndpoints()

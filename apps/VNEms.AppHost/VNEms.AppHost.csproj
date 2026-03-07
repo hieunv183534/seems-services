@@ -21,7 +21,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\gateway\VNEms.Gateway\VNEms.Gateway.csproj" />
     <ProjectReference Include="..\..\services\admin-service\src\VNEmsAdmin.HttpApi.Host\VNEmsAdmin.HttpApi.Host.csproj" />
-    <ProjectReference Include="..\..\shared\VNEms.Shared\VNEms.Shared.csproj" IsAspireProjectResource="false"/>
+    <ProjectReference Include="..\..\services\resource-service\src\VNEmsResource.HttpApi.Host\VNEmsResource.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\shared\VNEms.Shared\VNEms.Shared.csproj" IsAspireProjectResource="false" />
     <ProjectReference Include="..\VNEms.AuthServer\VNEms.AuthServer.csproj" />
   </ItemGroup>
 
