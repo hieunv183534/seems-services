@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "VNEmsResource.Domain.Shared": {
+      "path": "src/VNEmsResource.Domain.Shared/VNEmsResource.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "VNEmsResource.Domain": {
+      "path": "src/VNEmsResource.Domain/VNEmsResource.Domain.abppkg",
+      "folder": "src"
+    },
+    "VNEmsResource.Application.Contracts": {
+      "path": "src/VNEmsResource.Application.Contracts/VNEmsResource.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "VNEmsResource.Application": {
+      "path": "src/VNEmsResource.Application/VNEmsResource.Application.abppkg",
+      "folder": "src"
+    },
+    "VNEmsResource.EntityFrameworkCore": {
+      "path": "src/VNEmsResource.EntityFrameworkCore/VNEmsResource.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "VNEmsResource.MongoDB": {
+      "path": "src/VNEmsResource.MongoDB/VNEmsResource.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "VNEmsResource.HttpApi": {
+      "path": "src/VNEmsResource.HttpApi/VNEmsResource.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "VNEmsResource.HttpApi.Client": {
+      "path": "src/VNEmsResource.HttpApi.Client/VNEmsResource.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "VNEmsResource.TestBase": {
+      "path": "test/VNEmsResource.TestBase/VNEmsResource.TestBase.abppkg",
+      "folder": "test"
+    },
+    "VNEmsResource.EntityFrameworkCore.Tests": {
+      "path": "test/VNEmsResource.EntityFrameworkCore.Tests/VNEmsResource.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "VNEmsResource.MongoDB.Tests": {
+      "path": "test/VNEmsResource.MongoDB.Tests/VNEmsResource.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "VNEmsResource.Domain.Tests": {
+      "path": "test/VNEmsResource.Domain.Tests/VNEmsResource.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "VNEmsResource.Application.Tests": {
+      "path": "test/VNEmsResource.Application.Tests/VNEmsResource.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "VNEmsResource.HttpApi.Host": {
+      "path": "host/VNEmsResource.HttpApi.Host/VNEmsResource.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "VNEmsResource.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/VNEmsResource.HttpApi.Client.ConsoleTestApp/VNEmsResource.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "VNEmsResource.AuthServer": {
+      "path": "host/VNEmsResource.AuthServer/VNEmsResource.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "VNEmsResource.Host.Shared": {
+      "path": "host/VNEmsResource.Host.Shared/VNEmsResource.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}

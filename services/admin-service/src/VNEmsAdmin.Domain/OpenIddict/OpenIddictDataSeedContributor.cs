@@ -64,6 +64,16 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
                 Name = "VNEmsAdmin", DisplayName = "VNEmsAdmin API", Resources = { "VNEmsAdmin" }
             });
         }
+
+        if (await _openIddictScopeRepository.FindByNameAsync("VNEmsResource") == null)
+        {
+            await _scopeManager.CreateAsync(new OpenIddictScopeDescriptor
+            {
+                Name = "VNEmsResource",
+                DisplayName = "VNEmsResource API",
+                Resources = { "VNEmsResource" }
+            });
+        }
     }
 
     private async Task CreateApplicationsAsync()
@@ -74,7 +84,8 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
             OpenIddictConstants.Permissions.Scopes.Phone,
             OpenIddictConstants.Permissions.Scopes.Profile,
             OpenIddictConstants.Permissions.Scopes.Roles,
-            "VNEmsAdmin"
+            "VNEmsAdmin",
+            "VNEmsResource"
         };
 
         var configurationSection = _configuration.GetSection("OpenIddict:Applications");
@@ -107,22 +118,41 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
 
 
 
-        // Swagger Client
-        var swaggerClientId = configurationSection["VNEmsAdmin_Swagger:ClientId"];
-        if (!swaggerClientId.IsNullOrWhiteSpace())
+        // Swagger Admin Client
+        var swaggerAdminClientId = configurationSection["VNEmsAdmin_Swagger:ClientId"];
+        if (!swaggerAdminClientId.IsNullOrWhiteSpace())
         {
-            var swaggerRootUrl = configurationSection["VNEmsAdmin_Swagger:RootUrl"]?.TrimEnd('/');
+            var swaggerAdminRootUrl = configurationSection["VNEmsAdmin_Swagger:RootUrl"]?.TrimEnd('/');
 
             await CreateApplicationAsync(
-                name: swaggerClientId!,
+                name: swaggerAdminClientId!,
                 type: OpenIddictConstants.ClientTypes.Public,
                 consentType: OpenIddictConstants.ConsentTypes.Implicit,
-                displayName: "Swagger Application",
+                displayName: "Swagger Admin Application",
                 secret: null,
                 grantTypes: new List<string> { OpenIddictConstants.GrantTypes.AuthorizationCode, },
                 scopes: commonScopes,
-                redirectUri: $"{swaggerRootUrl}/swagger/oauth2-redirect.html",
-                clientUri: swaggerRootUrl
+                redirectUri: $"{swaggerAdminRootUrl}/swagger/oauth2-redirect.html",
+                clientUri: swaggerAdminRootUrl
+            );
+        }
+
+        // Swagger Resource Client
+        var swaggerResourceClientId = configurationSection["VNEmsResource_Swagger:ClientId"];
+        if (!swaggerResourceClientId.IsNullOrWhiteSpace())
+        {
+            var swaggerResourceRootUrl = configurationSection["VNEmsResource_Swagger:RootUrl"]?.TrimEnd('/');
+
+            await CreateApplicationAsync(
+                name: swaggerResourceClientId!,
+                type: OpenIddictConstants.ClientTypes.Public,
+                consentType: OpenIddictConstants.ConsentTypes.Implicit,
+                displayName: "Swagger Resource Application",
+                secret: null,
+                grantTypes: new List<string> { OpenIddictConstants.GrantTypes.AuthorizationCode, },
+                scopes: commonScopes,
+                redirectUri: $"{swaggerResourceRootUrl}/swagger/oauth2-redirect.html",
+                clientUri: swaggerResourceRootUrl
             );
         }
     }

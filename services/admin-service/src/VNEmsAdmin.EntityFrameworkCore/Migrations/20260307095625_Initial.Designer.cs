@@ -13,7 +13,7 @@ using Volo.Abp.EntityFrameworkCore;
 namespace VNEmsAdmin.Migrations
 {
     [DbContext(typeof(VNEmsAdminDbContext))]
-    [Migration("20260307065556_Initial")]
+    [Migration("20260307095625_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

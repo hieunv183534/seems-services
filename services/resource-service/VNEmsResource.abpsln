@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "VNEmsResource": {
+      "path": "VNEmsResource.abpmdl"
+    }
+  }
+}
