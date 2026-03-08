@@ -31,6 +31,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.Security.Claims;
 using Volo.Abp.Swashbuckle;
 using Volo.Abp.VirtualFileSystem;
+using VNEms.Shared.Constants;
 
 namespace VNEmsAdmin;
 
@@ -52,6 +53,7 @@ public class VNEmsAdminHttpApiHostModule : AbpModule
     {
         var configuration = context.Services.GetConfiguration();
         var hostingEnvironment = context.Services.GetHostingEnvironment();
+
 
         ConfigureConventionalControllers();
         ConfigureAuthentication(context, configuration);
@@ -151,7 +153,10 @@ public class VNEmsAdminHttpApiHostModule : AbpModule
     {
         context.Services.AddSingleton<IDistributedLockProvider>(sp =>
         {
-            var connection = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]!);
+            //var connection = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]!);
+            var connection = ConnectionMultiplexer.Connect(
+                configuration.GetConnectionString(VNEmsNames.Redis)!
+            );
             return new RedisDistributedSynchronizationProvider(connection.GetDatabase());
         });
     }

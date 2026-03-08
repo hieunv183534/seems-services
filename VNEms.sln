@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNEmsResource.HttpApi.Clien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNEmsResource.HttpApi.Host", "services\resource-service\src\VNEmsResource.HttpApi.Host\VNEmsResource.HttpApi.Host.csproj", "{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNEms.Hosting.Shared", "shared\VNEms.Hosting.Shared\VNEms.Hosting.Shared.csproj", "{8A4A82EB-8AA2-4AF3-B249-4EA5C41D5DD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -427,6 +429,10 @@ Global
 		{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4A82EB-8AA2-4AF3-B249-4EA5C41D5DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4A82EB-8AA2-4AF3-B249-4EA5C41D5DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4A82EB-8AA2-4AF3-B249-4EA5C41D5DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4A82EB-8AA2-4AF3-B249-4EA5C41D5DD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -507,6 +513,7 @@ Global
 		{A17EC348-6B3B-98BF-109E-05BFB7811475} = {27EC6723-FB1B-441C-9EA9-5C3430099C1F}
 		{52C09F4F-4B91-824F-2241-77360724419A} = {27EC6723-FB1B-441C-9EA9-5C3430099C1F}
 		{30D0F71F-2296-AF1C-C6F4-BF69E089FB48} = {1F3003C0-7263-4383-9D71-D822A266A2E8}
+		{8A4A82EB-8AA2-4AF3-B249-4EA5C41D5DD9} = {34CF671F-7B0C-4BA8-96D5-ADD45CC5DF51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B7AA8F2-F0F8-4AAA-AB4D-BC847942237D}

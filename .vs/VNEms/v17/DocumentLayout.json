@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "D:\\VNEMS\\BE\\seems-services\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\src\\vnemsadmin.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|solutionrelative:services\\admin-service\\src\\vnemsadmin.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}|services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResource.HttpApi.Host.csproj|d:\\vnems\\be\\seems-services\\services\\resource-service\\src\\vnemsresource.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}|services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResource.HttpApi.Host.csproj|solutionrelative:services\\resource-service\\src\\vnemsresource.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4EB092FD-91E6-FBF8-25D2-85E5B219F19A}|apps\\VNEms.AppHost\\VNEms.AppHost.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EB092FD-91E6-FBF8-25D2-85E5B219F19A}|apps\\VNEms.AppHost\\VNEms.AppHost.csproj|solutionrelative:apps\\vnems.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}|services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResource.HttpApi.Host.csproj|d:\\vnems\\be\\seems-services\\services\\resource-service\\src\\vnemsresource.httpapi.host\\vnemsresourcehttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}|services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResource.HttpApi.Host.csproj|solutionrelative:services\\resource-service\\src\\vnemsresource.httpapi.host\\vnemsresourcehttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.authserver\\vnemsauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|solutionrelative:apps\\vnems.authserver\\vnemsauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\src\\vnemsadmin.httpapi.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|solutionrelative:services\\admin-service\\src\\vnemsadmin.httpapi.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.authserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|solutionrelative:apps\\vnems.authserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\src\\vnemsadmin.httpapi.host\\vnemsadminhttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|solutionrelative:services\\admin-service\\src\\vnemsadmin.httpapi.host\\vnemsadminhttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.authserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|solutionrelative:apps\\vnems.authserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}|services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResource.HttpApi.Host.csproj|d:\\vnems\\be\\seems-services\\services\\resource-service\\src\\vnemsresource.httpapi.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D0F71F-2296-AF1C-C6F4-BF69E089FB48}|services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResource.HttpApi.Host.csproj|solutionrelative:services\\resource-service\\src\\vnemsresource.httpapi.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AppHost\\Program.cs",
               "RelativeDocumentMoniker": "apps\\VNEms.AppHost\\Program.cs",
               "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AppHost\\Program.cs",
               "RelativeToolTip": "apps\\VNEms.AppHost\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T10:06:16.292Z",
+              "WhenOpened": "2026-03-08T09:30:25.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VNEmsAuthServerModule.cs",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\VNEmsAuthServerModule.cs",
+              "RelativeDocumentMoniker": "apps\\VNEms.AuthServer\\VNEmsAuthServerModule.cs",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\VNEmsAuthServerModule.cs",
+              "RelativeToolTip": "apps\\VNEms.AuthServer\\VNEmsAuthServerModule.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJsAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:13:05.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VNEmsAdminHttpApiHostModule.cs",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdminHttpApiHostModule.cs",
+              "RelativeDocumentMoniker": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdminHttpApiHostModule.cs",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdminHttpApiHostModule.cs",
+              "RelativeToolTip": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdminHttpApiHostModule.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:10:32.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\appsettings.json",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\appsettings.json",
+              "RelativeToolTip": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-08T09:03:25.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\appsettings.json",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\appsettings.json",
+              "RelativeToolTip": "services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-08T09:02:51.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VNEmsResourceHttpApiHostModule.cs",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResourceHttpApiHostModule.cs",
+              "RelativeDocumentMoniker": "services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResourceHttpApiHostModule.cs",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResourceHttpApiHostModule.cs",
+              "RelativeToolTip": "services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\VNEmsResourceHttpApiHostModule.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAQwNAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:13:39.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\appsettings.json",
+              "RelativeDocumentMoniker": "apps\\VNEms.AuthServer\\appsettings.json",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\appsettings.json",
+              "RelativeToolTip": "apps\\VNEms.AuthServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-08T09:03:06.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\Program.cs",
+              "RelativeDocumentMoniker": "services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\Program.cs",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\Program.cs",
+              "RelativeToolTip": "services\\resource-service\\src\\VNEmsResource.HttpApi.Host\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:00:38.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\Program.cs",
+              "RelativeDocumentMoniker": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\Program.cs",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\Program.cs",
+              "RelativeToolTip": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:00:30.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\Program.cs",
+              "RelativeDocumentMoniker": "apps\\VNEms.AuthServer\\Program.cs",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\Program.cs",
+              "RelativeToolTip": "apps\\VNEms.AuthServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:00:07.724Z",
               "EditorCaption": ""
             }
           ]

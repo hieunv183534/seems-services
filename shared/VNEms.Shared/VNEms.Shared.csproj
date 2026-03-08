@@ -7,4 +7,8 @@
 		<!--<IsAspireSharedProject>true</IsAspireSharedProject>-->
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Volo.Abp.Core" Version="8.3.4" />
+	</ItemGroup>
+
 </Project>

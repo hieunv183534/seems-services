@@ -15,6 +15,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using VNEms.Shared.Constants;
 using VNEmsResource.EntityFrameworkCore;
 using VNEmsResource.MultiTenancy;
 using Volo.Abp;
@@ -160,7 +161,10 @@ public class VNEmsResourceHttpApiHostModule : AbpModule
     {
         context.Services.AddSingleton<IDistributedLockProvider>(sp =>
         {
-            var connection = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]!);
+            //var connection = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]!);
+            var connection = ConnectionMultiplexer.Connect(
+                configuration.GetConnectionString(VNEmsNames.Redis)!
+            );
             return new RedisDistributedSynchronizationProvider(connection.GetDatabase());
         });
     }

@@ -1,20 +1,23 @@
-using System;
-using System.IO;
-using System.Linq;
 using Localization.Resources.AbpUi;
 using Medallion.Threading;
 using Medallion.Threading.Redis;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.DataProtection;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using StackExchange.Redis;
+using System;
+using System.IO;
+using System.Linq;
+using VNEms.Shared.Constants;
 using VNEmsAdmin.EntityFrameworkCore;
 using VNEmsAdmin.Localization;
 using VNEmsAdmin.MultiTenancy;
-using StackExchange.Redis;
 using Volo.Abp;
 using Volo.Abp.Account;
+using Volo.Abp.Account.Localization;
 using Volo.Abp.Account.Web;
 using Volo.Abp.AspNetCore.Mvc.UI;
 using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap;
@@ -33,10 +36,9 @@ using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Volo.Abp.OpenIddict;
 using Volo.Abp.Security.Claims;
-using Volo.Abp.UI.Navigation.Urls;
 using Volo.Abp.UI;
+using Volo.Abp.UI.Navigation.Urls;
 using Volo.Abp.VirtualFileSystem;
-using Volo.Abp.Account.Localization;
 
 namespace VNEmsAdmin;
 
@@ -151,7 +153,10 @@ public class VNEmsAuthServerModule : AbpModule
 
         context.Services.AddSingleton<IDistributedLockProvider>(sp =>
         {
-            var connection = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]!);
+            //var connection = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]!);
+            var connection = ConnectionMultiplexer.Connect(
+                configuration.GetConnectionString(VNEmsNames.Redis)!
+            );
             return new RedisDistributedSynchronizationProvider(connection.GetDatabase());
         });
 
