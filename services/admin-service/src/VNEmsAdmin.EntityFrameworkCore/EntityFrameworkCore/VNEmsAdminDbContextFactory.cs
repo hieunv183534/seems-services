@@ -17,7 +17,7 @@ public class VNEmsAdminDbContextFactory : IDesignTimeDbContextFactory<VNEmsAdmin
         var configuration = BuildConfiguration();
 
         var builder = new DbContextOptionsBuilder<VNEmsAdminDbContext>()
-            .UseMySql(configuration.GetConnectionString("Default"), MySqlServerVersion.LatestSupportedServerVersion);
+            .UseNpgsql(configuration.GetConnectionString("Default"));
 
         return new VNEmsAdminDbContext(builder.Options);
     }

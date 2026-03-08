@@ -17,6 +17,7 @@ public class Program
 
         try
         {
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             Log.Information("Starting VNEmsAdmin.AuthServer.");
             var builder = WebApplication.CreateBuilder(args);
 
