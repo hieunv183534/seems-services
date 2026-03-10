@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\VNEMS\\BE\\seems-services\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.authserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|solutionrelative:apps\\vnems.authserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\src\\vnemsadmin.httpapi.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFD3B1C-A3E2-04F2-B098-34D9EA7E0DA2}|services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\VNEmsAdmin.HttpApi.Host.csproj|solutionrelative:services\\admin-service\\src\\vnemsadmin.httpapi.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|d:\\vnems\\be\\seems-services\\apps\\vnems.authserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EAAA69E3-6224-C4D9-7CE2-3BC2928AFFDE}|apps\\VNEms.AuthServer\\VNEms.AuthServer.csproj|solutionrelative:apps\\vnems.authserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EF92B0CF-BB63-AF0F-D1D3-C146B5541203}|services\\admin-service\\src\\VNEmsAdmin.DbMigrator\\VNEmsAdmin.DbMigrator.csproj|d:\\vnems\\be\\seems-services\\services\\admin-service\\src\\vnemsadmin.dbmigrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF92B0CF-BB63-AF0F-D1D3-C146B5541203}|services\\admin-service\\src\\VNEmsAdmin.DbMigrator\\VNEmsAdmin.DbMigrator.csproj|solutionrelative:services\\admin-service\\src\\vnemsadmin.dbmigrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\Program.cs",
-              "RelativeDocumentMoniker": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\Program.cs",
-              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\Program.cs",
-              "RelativeToolTip": "services\\admin-service\\src\\VNEmsAdmin.HttpApi.Host\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T10:42:00.182Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\Program.cs",
-              "RelativeDocumentMoniker": "apps\\VNEms.AuthServer\\Program.cs",
-              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\Program.cs",
-              "RelativeToolTip": "apps\\VNEms.AuthServer\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBMAAABPAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.DbMigrator\\Program.cs",
+              "RelativeDocumentMoniker": "services\\admin-service\\src\\VNEmsAdmin.DbMigrator\\Program.cs",
+              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\services\\admin-service\\src\\VNEmsAdmin.DbMigrator\\Program.cs",
+              "RelativeToolTip": "services\\admin-service\\src\\VNEmsAdmin.DbMigrator\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T10:39:42.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\appsettings.json",
-              "RelativeDocumentMoniker": "apps\\VNEms.AuthServer\\appsettings.json",
-              "ToolTip": "D:\\VNEMS\\BE\\seems-services\\apps\\VNEms.AuthServer\\appsettings.json",
-              "RelativeToolTip": "apps\\VNEms.AuthServer\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-08T10:35:44.428Z",
+              "WhenOpened": "2026-03-10T14:34:01.783Z",
               "EditorCaption": ""
             }
           ]

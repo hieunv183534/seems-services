@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\shared\VNEms.Shared\VNEms.Shared.csproj" />
     <ProjectReference Include="..\VNEmsAdmin.Domain\VNEmsAdmin.Domain.csproj" />
     <ProjectReference Include="..\..\modules\Volo.PermissionManagement\src\Volo.Abp.PermissionManagement.EntityFrameworkCore\Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj" />
     <PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="8.3.4" />

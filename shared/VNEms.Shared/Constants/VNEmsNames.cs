@@ -17,9 +17,11 @@ namespace VNEms.Shared.Constants
 
         public const string VNEmsAdminApi = "VNEmsAdminApi";
         public const string VNEmsAdminDb = "VNEmsAdminDb";
+        public const string VNEmsAdminDbMigrator = "VNEmsAdminDbMigrator";
 
         public const string VNEmsResourceApi = "VNEmsResourceApi";
         public const string VNEmsResourceDb = "VNEmsResourceDb";
+        public const string VNEmsResourceDbMigrator = "VNEmsResourceDbMigrator";
 
         public const string Gateway = "VNEmsGateway";
         public const string AuthServer = "VNEmsAuthServer";

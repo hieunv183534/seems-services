@@ -3,6 +3,7 @@ using System.IO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using VNEms.Shared.Constants;
 
 namespace VNEmsAdmin.EntityFrameworkCore;
 
@@ -17,7 +18,7 @@ public class VNEmsAdminDbContextFactory : IDesignTimeDbContextFactory<VNEmsAdmin
         var configuration = BuildConfiguration();
 
         var builder = new DbContextOptionsBuilder<VNEmsAdminDbContext>()
-            .UseNpgsql(configuration.GetConnectionString("Default"));
+            .UseNpgsql(configuration.GetConnectionString(VNEmsNames.VNEmsAdminDb));
 
         return new VNEmsAdminDbContext(builder.Options);
     }

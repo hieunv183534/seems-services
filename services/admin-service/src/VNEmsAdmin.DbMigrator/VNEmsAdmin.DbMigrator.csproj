@@ -23,15 +23,13 @@
 
   <ItemGroup>    
     <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
-    <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
-    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Autofac" Version="8.3.4" />
     <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="8.3.4" />
+    <ProjectReference Include="..\..\..\..\shared\VNEms.Microservice.Shared\VNEms.Microservice.Shared.csproj" />
     <ProjectReference Include="..\VNEmsAdmin.Application.Contracts\VNEmsAdmin.Application.Contracts.csproj" />
     <ProjectReference Include="..\VNEmsAdmin.EntityFrameworkCore\VNEmsAdmin.EntityFrameworkCore.csproj" />
   </ItemGroup>

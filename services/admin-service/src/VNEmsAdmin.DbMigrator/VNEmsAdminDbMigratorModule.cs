@@ -1,4 +1,6 @@
-﻿using VNEmsAdmin.EntityFrameworkCore;
+﻿using Microsoft.Extensions.Caching.StackExchangeRedis;
+using VNEms.Shared.Constants;
+using VNEmsAdmin.EntityFrameworkCore;
 using Volo.Abp.Autofac;
 using Volo.Abp.Caching;
 using Volo.Abp.Caching.StackExchangeRedis;
@@ -17,5 +19,10 @@ public class VNEmsAdminDbMigratorModule : AbpModule
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         Configure<AbpDistributedCacheOptions>(options => { options.KeyPrefix = "VNEmsAdmin:"; });
+
+        Configure<RedisCacheOptions>(options =>
+        {
+            options.Configuration = VNEmsNames.Redis;
+        });
     }
 }
